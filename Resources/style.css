@@ -19,6 +19,11 @@ div {
 border:  black 1px solid;
 display: block;
 }
+
+h2 {
+  display: block;
+
+}
 .logo span {
   color: aquamarine;
 }
@@ -38,7 +43,6 @@ header nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
-
 }
 
 .content {
@@ -60,4 +64,37 @@ nav span {
 
 .column.small {
   width: 240px;
+}
+.image-content {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  color: white;}
+
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  display: flex;
+  font-size: 40px;
+  text-align: left;
+
+}
+
+.fall-cancelled {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: flex;
+  text-align: center;
+}
+
+.cameras-erase {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+.span {
+  display: flex;
 }
